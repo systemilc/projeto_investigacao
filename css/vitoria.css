@@ -91,13 +91,40 @@ main{
 
 
 img{
-	height: 500px;
+	height: 400px;
 	width: auto;
 	
 }
 main p{
 	padding: 10px;
 	font-size: 30px;
+	
+}
+
+button{
+	margin: 20px;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	width: 100px;
+	height: 30px;
+	background-color: #FFD000;
+	transition: 1s all;
+	
+}
+button:hover{
+	
+	color: #ffffff;
+	padding: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	width: 150px;
+	height: 40px;
+	background-color: #1B518B;
 	
 }
 
