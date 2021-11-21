@@ -34,9 +34,14 @@
 		transition: all 0.5s;
 	
 	}
+	body{
+		background-image: linear-gradient( 150deg, #cf0b68, #0a42d1) ;
+		background-repeat: no-repeat;
+	}
+
 	img{
 		height: auto;
-		width: 300px;
+		width: 500px;
 		
 	}
 
