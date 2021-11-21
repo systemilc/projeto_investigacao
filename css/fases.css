@@ -125,7 +125,8 @@ p{
 }
 
 .dica{
-	font-weight: bolder;
+	font-weight: bold;
+	color: red;
 }
 
 
