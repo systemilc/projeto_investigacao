@@ -1,12 +1,36 @@
-function pergunta(){
-   var resposta = prompt("Para onde quer viajar?")
+var resposta
 
-   if(resposta == 3 ){
-    window.location.href="./personagem_3_fase2.html"
-}else{
- window.location.href="./game_over.html"
-}
-}
+        function pertunta() {
+
+        while(resposta != 1 || resposta != 2 || resposta != 3 ) {
+
+        resposta = prompt("Digite o número correspondente ao país de destino")
+
+        if (resposta == 3){
+            window.location.href='./personagem_3_fase2.html'
+            break
+        }
+        else if (resposta == 1){
+
+            window.location.href='./game_over.html'
+            break
+        }
+		else if (resposta == 2){
+
+           window.location.href='./game_over.html'
+            break
+        }
+        else{
+            alert('Digite 1, 2 ou 3')
+           break
+
+        }
+    }
+
+
+
+    }
+
 
 
  
