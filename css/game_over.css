@@ -78,13 +78,41 @@ body{
 	background-image: linear-gradient( 150deg, #cf0b68, #0a42d1) ;
 }
 main{
-	
+	display: flex;
+	flex-direction: column;
 	text-align: center;
+	align-items: center;
+
 }
 
 img{
 	height: 500px;
 	width: auto;
+	
+}
+button{
+	margin: 20px;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	width: 100px;
+	height: 30px;
+	background-color: #FFD000;
+	transition: 1s all;
+	
+}
+button:hover{
+	
+	padding: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	width: 150px;
+	height: 40px;
+	background-color: #BF1071;
 	
 }
 
