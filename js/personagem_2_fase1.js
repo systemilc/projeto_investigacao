@@ -22,6 +22,7 @@ var resposta
         }
         else{
             alert('Digite 1, 2 ou 3')
+            resposta = prompt("Digite o número correspondente ao país de destino")
            break
 
         }
